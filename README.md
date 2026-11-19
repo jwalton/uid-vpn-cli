@@ -25,7 +25,7 @@ This requires Accessibility permission for the terminal app running it. You shou
 
 ## Installation
 
-Download the binary from the [releases](https://github.com/jwalton/uid-vpn-cli/releases) page and put it somewhere on your `PATH`.
+Download the binary from the [releases](https://github.com/jwalton/uid-vpn-cli/releases) page and put it somewhere on your `PATH`.  You'll need to run `xattr -r -d com.apple.quarantine uid-vpn` to remove the quarantine attribute.
 
 ## Building
 
